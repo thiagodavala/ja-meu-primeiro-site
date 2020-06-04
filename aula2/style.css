@@ -1,0 +1,40 @@
+html,
+body {
+  margin: 0;
+  font-family: Roboto, 'Open Sans', Arial, sans-serif;
+}
+/* --------  Capa  -------- */
+figure {
+  margin: 0 auto;
+}
+.imagem_fundo {
+  background: url(img/sea-bg.jpg); /* https://www.pexels.com/photo/water-blue-ocean-dark-blue-37487/ */
+  background-size: cover;
+  height: 100%;
+  padding: 10px;
+}
+.titulo {
+  color: #FFF;
+}
+h1.titulo {
+  font-size: 70px;
+  margin: 20% 20% 0 20%;
+  padding-bottom: 20px;
+}
+h2.titulo {
+  padding-top: 20px;
+  font-size: 30px;
+  margin: 0 20% 0 20%;
+  border-top: 3px solid white;
+  padding-bottom: 30px;
+}
+.cta {
+  border: 1px solid white;
+  color: white;
+  padding: 10 20 10 20;
+  font-size: 20px;
+}
+/* Texto */
+.centro {
+  text-align: center;
+}
