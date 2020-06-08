@@ -1,0 +1,93 @@
+html,
+body {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 300;
+  font-family: Roboto, 'Open Sans', Arial, sans-serif;
+}
+section {
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 30px 0 20px 0;
+}
+hr {
+  width: 30px;
+}
+.cor_fundo {
+  background: #f7f7f7;
+}
+/* --------  Capa  -------- */
+figure {
+  margin: 0 auto;
+}
+figure .imagem_fundo {
+  background: url(img/sea-bg.jpg); /* https://www.pexels.com/photo/beach-sea-blue-endless-wild-nature-103567/ */
+  background-size: cover;
+  height: 100%;
+  padding: 10px;
+}
+figure .titulo {
+  color: #FFF;
+  line-height: 0.9;
+  text-shadow: 1px 1px black;
+}
+figure h1.titulo {
+  font-size: 70px;
+  letter-spacing: -5px;
+  margin: 20% 20% 0 20%;
+  padding-bottom: 20px;
+}
+figure h2.titulo {
+  padding-top: 20px;
+  font-size: 30px;
+  margin: 0 30% 0 30%;
+  border-top: 3px solid white;
+  padding-bottom: 30px;
+}
+.cta {
+  border: 1px solid white;
+  color: white;
+  padding: 10 20 10 20;
+  text-decoration: initial;
+  font-size: 20px;
+}
+.cta:hover {
+  background-color: #01acea;
+  border: 0px;
+}
+/* ------- Imagens ------- */
+.icone img{
+  max-width: 20%;
+  max-height: 20%;
+  margin: 15px;
+}
+.icone:hover {
+  background: lightblue;
+}
+img {
+  width: 100%;
+}
+/* --------  Textos  -------- */
+h1 {
+  text-align: center;
+  font-size: 30px;
+}
+h2 {
+  font-family: 'Roboto Slab', sans-serif;
+  text-align: center;
+  font-weight: 400;
+  font-size: 16px;
+}
+.esquerda {
+  text-align: left;
+}
+.direita {
+  text-align: right;
+}
+.centro {
+  text-align: center;
+}
+.justificado {
+  text-align: justify;
+}
